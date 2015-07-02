@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'SansationRegular';
+    src: url('http://users.wpi.edu/~ewbwpi/ANGULAR_EWB/resources/fonts/Sansation_Regular.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	font-family: Calibri, Arial;
+	margin:0px;
+}
+
+#wrapper {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 12pt;
+	overflow-x: hidden;
+}
+
+/* wrapper for nav w/ logo */
+#topbar {
+	width: inherit;
+}
+
+#footer {
+	padding-top:20px;
+	padding-bottom:20px;
+	width: 100%;
+	background-image: url('http://users.wpi.edu/~ewbwpi/images/ewb-usa-logo-color.png');
+	background-size: 575px auto;
+	background-color:#b5cde4;
+	background-repeat: no-repeat;
+	background-position: 110% 6%;
+}
+
+#sponsors {
+	width: 100%;
+}
+
+#nav {
+	height:90px;
+	text-align:bottom;
+}
+
+#headerimg {
+	width: 100%;
+	max-height: 550px;
+}
+
+#quote {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-top: -5px;
+	background-color: #095AA6;
+	color: #ffffff;
+	width: 100%;
+	height: 3%;
+	text-align: center;
+	font-size: 100%;
+	vertical-align:middle;
+}
+
+.flex-container {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  -webkit-flex-wrap: wrap; /* Safari */
+  flex-wrap:         wrap;
+  -webkit-justify-content: center; /* Safari */
+  justify-content:         center;
+  -webkit-justify-content: space-around; /* Safari */
+  justify-content:         space-around;
+  -webkit-align-content: center; /* Safari */
+  align-content:         center;
+  background-color: #ffffff;
+  -webkit-align-items: baseline; /* Safari */
+  align-items:         baseline;
+}
+
+.flex-item {
+  -webkit-flex-grow: 1; /* Safari */
+  flex-grow:         1;
+  max-width: 550px;
+  min-width: 250px;
+  text-align: center;
+  background-color: #d3d3d3;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-top: 5px solid #333333;
+  //border-radius: 35px;
+}
+
+a.nav:active, a.nav:visited, a.nav:link {
+	color: #333333;
+	text-decoration:none;
+	font-size:20px;
+	text-transform:uppercase;
+	padding-left: 3px;
+	padding-right: 3px;
+	vertical-align:bottom;
+}
+
+a.nav:hover {
+	border-bottom: 1px solid #008FFF;
+}
+
+.separator {
+	margin-left:2px;
+	margin-right:2px;
+}
+
+#announce {
+	background-color:#333333;
+	margin-top:0px;
+	padding:15px;
+}
+
+h1 {
+font-weight: 900;
+font-size: 20px;
+padding: 0px;
+text-transform: uppercase;
+}
+
+h2 {
+font-weight: 900;
+font-size: 16px;
+padding: 0px;
+text-transform: uppercase;
+color:#095aa6;
+
+}
+
+h3 {
+font-weight: 900;
+font-size: 15px;
+padding: 0px;
+text-transform: uppercase;
+}
+
+#title {
+	background-color:#8c944d;
+	width: inherit;
+	text-align:left;
+	padding-left: 7.5%;
+	margin-top:0px;
+}
+
+blockquote {
+	position:relative;
+	text-align:left;
+	width: 80%;	
+	left: 7.5%;
+}
+
+a {
+	color:#095AA6;
+	text-decoration:none;
+}
+
+td {
+vertical-align: top;
+padding-bottom:5%;
+}
+
+td.blog {
+	width: 72%;
+	padding-right:3%;
+}
+
+
+td.twitter {
+	width: 31%;
+	padding-left:3%;
+	text-align:right;
+}
+
+td.bottom {
+	width: 31%;
+}
+
+img.bottom {
+	width:100%;
+}
+
+.content {
+	width:100%;
+	margin-top:150px;
+}
+
+<!--table styles-->
+table { width:100%; }
+td.name {width:30%; }
+td.role { width:70%; }
+td.left { width:20%; padding: 5px 20px 5px 0px; vertical-align:middle;}
+td.right { width:80%; padding: 5px 0px 5px 0px; vertical-align:middle;}
+
+hr { background-color: #095aa6; height: 1px; border: 0; }
+
+@media only screen and  (max-width: 1050px){
+	#footer {
+	padding-top:20px;
+	padding-bottom:20px;
+	width: 100%;
+	background-image: none;
+	background-size: 575px auto;
+	background-color:#b5cde4;
+	background-repeat: no-repeat;
+	background-position: 110% 10%;
+	}
+}
