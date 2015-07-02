@@ -1,0 +1,43 @@
+<img id="headerimg" src="http://users.wpi.edu/~ewbwpi/images/aboutheader.png" alt="EWB team members">
+<blockquote>
+    <h1>About Our Chapter</h1>
+    <p>EWB-USA WPI is a student chapter of the national organization Engineers Without Borders-USA. The chapter's goals, mission and vision 
+        are aligned with those of the national organization. </p>
+
+	
+	<h2>EWB-USA's Mission</h2>
+		<p>EWB-USA is a nonprofit humanitarian organization established to support community-driven development programs worldwide through partnerships that design and implement sustainable engineering projects, while creating transformative experiences that enrich global perspectives and create responsible leaders.</p>
+	
+	<h2>EWB-USA's Vision</h2>
+		<p>EWB-USA's vision is a world in which the communities we serve have the capacity to sustainably meet their basic human needs.
+        </p>
+        
+        <br />
+    
+	<h2>Officers</h2>
+	
+	<table>
+		<tr ng-repeat="officer in officers">
+			<td class="left"> <img src="resources/images/execs/{{ officer.ImgName }}.jpg" alt="" /></td>
+			<td class="right"> 
+				<b>{{ officer.Position }}</b><br />
+				{{ officer.Name}} <br />
+				<i>{{ officer.Major }}, Class of {{ officer.ClassYear }}</i>
+				<br /><a href="mailto:{{ officer.Email }}">{{ officer.Email }}</a>
+			</td>
+		</tr>
+    </table>
+    
+    <h2>Appointed Positions</h2>
+	
+	<table>
+		<tr ng-repeat="officer in appointed">
+			<td class="left"> <img src="resources/images/execs/{{ officer.ImgName }}.jpg" alt="" /></td>
+			<td class="right"> 
+				<b>{{ officer.Position }}</b><br />
+				{{ officer.Name}} <br />
+				<i>{{ officer.Major }}, Class of {{ officer.ClassYear }}</i>
+				<br /><a href="mailto:{{ officer.Email }}">{{ officer.Email }}</a>
+			</td>
+		</tr>
+    </table>

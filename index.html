@@ -1,0 +1,45 @@
+<!doctype HTML>
+
+<html ng-app="ewbWebsite">
+	<head>
+ 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 	
+		<link rel="stylesheet" href="resources/css/style.css">
+ 	
+		<script type="text/JavaScript" src="resources/js/angular.min.js"></script>
+		<script type="text/JavaScript" src="resources/js/angular-route.min.js"></script>
+		<script type="text/JavaScript" src="app/app.js"></script>
+        <script type="text/JavaScript" src="app/controllers/aboutController.js"></script>
+        <script type="text/JavaScript" src="app/controllers/homeController.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+		<script>
+			window.twttr = (function(d, s, id) {
+  			var js, fjs = d.getElementsByTagName(s)[0],
+    		t = window.twttr || {};
+  			if (d.getElementById(id)) return t;
+  			js = d.createElement(s);
+  			js.id = id;
+  			js.src = "https://platform.twitter.com/widgets.js";
+  			fjs.parentNode.insertBefore(js, fjs);
+ 
+ 	 		t._e = [];
+  			t.ready = function(f) {
+    			t._e.push(f);
+  			};
+ 
+  			return t;
+			}(document, "script", "twitter-wjs"));
+       </script>
+
+		<title>Engineers Without Borders USA - WPI Student Chapter</title>
+	</head>
+
+	<body>
+		<div ng-include="'app/fragments/header.html'"></div>
+
+		<div class="content"><div ng-view></div></div>
+
+	</body>
+
+</html>
