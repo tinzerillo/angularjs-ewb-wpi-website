@@ -8,7 +8,7 @@
         <select ng-options="trip.title for trip in trips" ng-model="selectedTrip">
         </select>
     </p>
-    
+    <hr>
     <p>
         <h2>{{selectedTrip.title}}</h2>
         <p>{{selectedTrip.description}}</p>
@@ -16,7 +16,7 @@
         <h3>Forms</h3>
         <ul>
             <li ng-repeat="form in selectedTrip.forms">
-                <a href="http://users.wpi.edu/~ewbwpi/docs/Pre-Post-Forms/{{form.filename}}" target="_blank">{{form.title}}</a>
+                <a href="resources/documents/{{form.filename}}" target="_blank">{{form.title}}</a>
             </li>
         </ul>
 

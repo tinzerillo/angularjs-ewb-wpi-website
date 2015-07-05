@@ -1,13 +1,19 @@
-<div id="footer"><br />
-	<h3 style="margin-bottom:0px">Contact Us:</h3>
-	<a href="mailto:ewb-execs@wpi.edu">Email</a> | 
-	<a href="https://www.facebook.com/ewbusawpi?fref=nf">Facebook</a> |
-	<a href="https://twitter.com/wpiewb">Twitter</a><br /><br />
-	&copy; 2013 - 2015 Engineers Without Borders USA-WPI<br />
-	100 Institute Road, Worcester, MA 01609<br /><br />
-	Members Only: <a href="http://users.wpi.edu/~ewbwpi/blog/manage/">Manage Blog</a><br /><br />
+<div class="footer">
+    <p>&copy; 2013 - 2015 Engineers Without Borders USA-WPI <br />
+        100 Institute Road, Worcester, MA 01609
+    </p>
+    <p>
+        <a href="mailto:ewb-execs@wpi.edu"><img src="resources/images/email.png"></a>
+        <a href="https://www.facebook.com/ewbusawpi?fref=nf"><img src="resources/images/facebook.png"></a>
+        <a href="https://twitter.com/wpiewb"><img src="resources/images/twitter.png"></a>
+    </p>
 </div> 
-<div id="sponsors">
-	<h3 style="margin-bottom:0px;">Thank you to our sponsors!</h3>
-	<img src="http://users.wpi.edu/~ewbwpi/images/sponsors2014.jpg" style="width:100%; max-width:800px;" alt="EWB-USA WPI sponsor logos"></div>
-</div>
+
+<blockquote style="padding-top:15px">
+    <h3>Thank you to our sponsors!</h3>
+    <div id="sponsors" style="margin-bottom:30px;" ng-controller="footerController" class="flex-container-nav">
+        <div class="flex-item-sponsors" ng-repeat="sponsor in sponsors"  style="list-style:none;display:inline;">
+            <a href="{{sponsor.url}}"><img src="resources/images/sponsors/{{sponsor.filename}}" height="50px"></a>
+        </div>
+    </div>
+</blockquote>
