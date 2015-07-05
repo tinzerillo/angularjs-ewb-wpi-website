@@ -13,23 +13,16 @@ body {
 	text-align: center;
 	font-size: 12pt;
 	overflow-x: hidden;
+    border-top: 10px solid #333333;
+    border-bottom: 10px solid #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-/* wrapper for nav w/ logo */
-#topbar {
-	width: inherit;
-	display:block;
-}
-
-#footer {
-	padding-top:20px;
-	padding-bottom:20px;
-	width: 100%;
-	background-image: url('http://users.wpi.edu/~ewbwpi/images/ewb-usa-logo-color.png');
-	background-size: 575px auto;
-	background-color:#b5cde4;
-	background-repeat: no-repeat;
-	background-position: 110% 6%;
+hr.footer-divider {
+	background-image: url('../images/footer.png');
+    height:6px;
+    margin-top:70px;
 }
 
 #sponsors {
@@ -72,15 +65,28 @@ body {
 	background-position: 110% 10%;
 	}
 	
-	.flex-item {
-		margin-right: 0px;
-		margin-left: 0px;
-		width:100%;
-		max-width: none;
+//	.flex-item {
+//		margin-right: 0px;
+//		margin-left: 0px;
+//		width:100%;
+//		max-width: none;
 	}
 }
 
 .flex-container-nav {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  -webkit-flex-wrap: wrap; /* Safari */
+  flex-wrap:         wrap;
+  -webkit-justify-content: space-between; /* Safari */
+  justify-content:         space-between;
+  -webkit-align-content: center; /* Safari */
+  align-content:         center;
+  -webkit-align-items: flex-end; /* Safari */
+  align-items:         flex-end;
+}
+
+.flex-container-sponsors {
   display: -webkit-flex; /* Safari */
   display: flex;
   -webkit-flex-wrap: wrap; /* Safari */
@@ -143,8 +149,8 @@ a.nav:hover {
 }
 
 @media only screen and  (max-width: 950px){
-    .flex-item-nav:nth-child(2) { 
-        margin-top:15px; 
+    .flex-item-nav{ 
+        margin-top:20px; 
     }
     .flex-item-nav {
         width:100%;text-align: center;
