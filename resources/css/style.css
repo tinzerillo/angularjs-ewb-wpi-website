@@ -130,8 +130,10 @@ body {
 .flex-item-home:nth-child(even) { margin-left: 15px; }
 
 .flex-item-home {
-  max-width: 44%;
-  min-width: 250px;
+    max-width: 44%;
+    min-width: 250px;
+    max-height: 750px;
+    overflow-y: auto;
 }
 }
 
