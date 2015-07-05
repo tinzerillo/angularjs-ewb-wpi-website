@@ -14,14 +14,16 @@ body {
 	font-size: 12pt;
 	overflow-x: hidden;
     border-top: 10px solid #333333;
-    border-bottom: 10px solid #333333;
     padding-top: 15px;
 }
 
-hr.footer-divider {
-	background-image: url('../images/footer.png');
-    height:6px;
-    margin-top:70px;
+.footer{
+    background-color:#e3e3e3; 
+    padding-top:15px;
+    padding-bottom:10px;
+    border-bottom:10px solid #333333;
+    text-align:center;
+    margin-top: 40px;
 }
 
 #sponsors {
