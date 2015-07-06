@@ -13,7 +13,7 @@
         <h2>{{selectedTrip.title}}</h2>
         <p>{{selectedTrip.description}}</p>
 
-        <h3>Forms</h3>
+        <h3>Documents</h3>
         <ul>
             <li ng-repeat="form in selectedTrip.forms">
                 <a href="resources/documents/{{form.filename}}" target="_blank">{{form.title}}</a>
@@ -35,5 +35,10 @@
         </ul>
     
         <h3>Photos</h3>
+    <ul rn-carousel class="image">
+        <li><img src="resources/images/email.png"></li>
+        <li>slide #2</li>
+        <li>slide #3</li>
+    </ul>
     </p>
 </blockquote>

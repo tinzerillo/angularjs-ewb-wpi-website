@@ -7,7 +7,7 @@ app.controller('footerController', function ($scope)
             },
             {
                 "filename": "gilbane.jpg",
-                "url": "www.gilbaneco.com/"
+                "url": "http://www.gilbaneco.com/"
             },
             {
                 "filename": "p3.jpg",

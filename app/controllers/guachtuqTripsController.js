@@ -4,7 +4,8 @@ app.controller('guachtuqTripsController', function ($scope) {
             "title": "May 2015 Implementation Trip",
             "description": "In May 2015, EWB-USA WPI returned for the seventh time—the last planned Implementation Trip for the Guachtuq Rainwater Harvesting Project. Over two-weeks, the travelers worked with the community members and CeCEP to complete construction of the twenty-two final systems. They conducted a variety of water quality tests at all previously-implemented EWB-USA WPI systems and many pre-existing systems from other past projects. The team held interviews with all families that received a system during this implementation trip to collect baseline data about water usage and habits. Further interviews were held with past beneficiaries to evaluate impacts and monitor system function. All systems were completed by teams of community members working alongside an EWB-USA WPI member and a facilitator/translator from CeCEP.",
             "forms": [
-                {"title": "525 Pre-Trip Form", "filename": "EWB-USA Worcester Polytechnic Institute 525 May 2015.pdf"}],
+                {"title": "525 Pre-Trip Form", "filename": "EWB-USA Worcester Polytechnic Institute 525 May 2015.pdf"},
+                {"title": "TAC Review", "filename": "May2015TacPresentation.pdf"}],
             "startdate": "May 9th, 2015",
             "enddate": "May 25th, 2015",
             "team": [
