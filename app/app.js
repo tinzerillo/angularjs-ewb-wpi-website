@@ -1,4 +1,4 @@
-var app = angular.module("ewbWebsite", ['ngRoute', 'ui.bootstrap', 'twitter.timeline']);
+var app = angular.module("ewbWebsite", ['ngRoute', 'ui.bootstrap', 'twitter.timeline', 'angular-carousel']);
 
 // configure our routes
     app.config(function($routeProvider) {
