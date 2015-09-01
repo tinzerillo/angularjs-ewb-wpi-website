@@ -1,4 +1,5 @@
 app.controller('guachtuqTripsController', function ($scope) {
+    'use strict';
     $scope.trips = [
         {
             "title": "May 2015 Implementation Trip",
