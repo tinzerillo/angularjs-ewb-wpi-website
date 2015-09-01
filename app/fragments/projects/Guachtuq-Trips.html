@@ -34,11 +34,16 @@
             </li>
         </ul>
     
-        <h3>Photos</h3>
-    <ul rn-carousel class="image">
-        <li><img src="resources/images/email.png"></li>
-        <li>slide #2</li>
-        <li>slide #3</li>
-    </ul>
+        <!---<h3>Photos</h3>
+        <div class="carousel-demo">
+                    <ul rn-carousel rn-carousel-index="carouselIndex2" rn-carousel-auto-slide rn-carousel-pause-on-hover rn-carousel-buffered class="carousel2">
+                        <li ng-repeat="slide in slides track by slide.id" ng-class="'id-' + slide.id">
+                            <div ng-style="{'background-image': 'url(' + slide.img + ')'}"  class="bgimage">
+                              #{{ slide.id }}
+                            </div>
+                        </li>
+                    </ul>
+                    <div rn-carousel-indicators ng-if="slides2.length > 1" slides="slides2" rn-carousel-index="carouselIndex2"></div>
+                </div>-->
     </p>
 </blockquote>
