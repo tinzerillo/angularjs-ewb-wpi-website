@@ -1,7 +1,7 @@
 var app = angular.module("ewbWebsite", ['ngRoute', 'ui.bootstrap', 'twitter.timeline']);
 
 // configure our routes
-    app.config(function($routeProvider) {
+    app.config(function($routeProvider, $locationProvider) {
         $routeProvider
 
             .when('/', {
@@ -39,4 +39,5 @@ var app = angular.module("ewbWebsite", ['ngRoute', 'ui.bootstrap', 'twitter.time
                 templateUrl : 'app/fragments/blog/index.cgi',
                 controller  : 'blogController'
             });
+        $locationProvider.html5Mode(true);
     });
