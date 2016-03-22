@@ -13,8 +13,7 @@ body {
 	text-align: center;
 	font-size: 12pt;
 	overflow-x: hidden;
-    border-top: 10px solid #333333;
-    padding-top: 15px;
+    background-color: #ffffff;
 }
 
 .footer{
@@ -24,6 +23,19 @@ body {
     border-bottom:10px solid #333333;
     text-align:center;
     margin-top: 40px;
+}
+
+.sangriasocial {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #3faaff;
+    text-align: center;
+    font-weight: bolder;
+}
+
+a.sangriasocial {
+    color: white;
 }
 
 #sponsors {
