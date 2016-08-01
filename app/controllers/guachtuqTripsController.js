@@ -1,6 +1,23 @@
 app.controller('guachtuqTripsController', function ($scope) {
     'use strict';
     $scope.trips = [
+		{
+            "title": "May 2016 Monitoring Trip",
+            "description": "The May 2016 Monitoring and Evaluation Trip focused on three major goals: (1) to empower community members to independently operate and maintain the rainwater harvesting systems through a training and certification program; (2) to make minor system adjustments for the purpose of improving water quality, quantity, and access; and (3) to ascertain whether the community’s goals have been met through continued project monitoring with water quality tests, interviews, system inspections, and focus groups. EWB-USA WPI will use this completed evaluation to determine whether the project has reached the point at which it can be closed out, and to analyze the end results for the purpose of determining potential areas of improvement in future projects. CeCEP will continue to use the evaluation to assist the community with maintaining the systems. Since the certification program was taught through CeCEP, and the system monitoring was completed by CeCEP representatives, many people at the NGO possess a wealth of knowledge on the maintenance and repair of the systems. This knowledge can be used to help community members maintain the systems.  Additionally, CeCEP hopes to use Guachtuq as a model community to help other communities develop similar systems over time. Both CeCEP and the community members have continued to uphold the Memorandums of Understanding (MOU), and CeCEP is working with the Consejo Comunitarios de Desarollo (CoCODE) and individual community members to address any changes related to the project, Additionally this evaluation intends to assist EWB nationals and other EWB chapters in understanding the impact an EWB chapter can have on a community, as well as how a chapter can handle technical successes and failures throughout a design process.",
+            "forms": [
+                {"title": "530 Pre-Monitoring & Evaluation Report", "filename": ""},
+                {"title": "531 Post-Monitoring & Evaluation Report", "filename": ""}],
+            "startdate": "May 7th, 2016",
+            "enddate": "May 23rd, 2016",
+            "team": [
+                {"name": "Amanda Gatz", "title": "Electrical and Computer Engineering, Class of 2017"},
+                {"name": "Evelyn Grainger", "title": "Mechanical Engineering, Class of 2018"},
+				{"name": "Kerry Muenchow", "title": "Mechanical Engineering, Class of 2019"},
+                {"name": "Aaron Pepin", "title": "Mechanical Eningeering, Class of 2017"},
+                {"name": "Andrew Petit", "title": "Computer Science, Class of 2018"},
+				{"name": "Alana Sher", "title": "Mechanical Eningeering, Class of 2019"},
+                {"name": "Laureen Elgert, Ph. D.", "title": "Assistant Professor, Social Science & Policy Studies at WPI"}]
+        },
         {
             "title": "May 2015 Implementation Trip",
             "description": "In May 2015, EWB-USA WPI returned for the seventh time—the last planned Implementation Trip for the Guachtuq Rainwater Harvesting Project. Over two-weeks, the travelers worked with the community members and CeCEP to complete construction of the twenty-two final systems. They conducted a variety of water quality tests at all previously-implemented EWB-USA WPI systems and many pre-existing systems from other past projects. The team held interviews with all families that received a system during this implementation trip to collect baseline data about water usage and habits. Further interviews were held with past beneficiaries to evaluate impacts and monitor system function. All systems were completed by teams of community members working alongside an EWB-USA WPI member and a facilitator/translator from CeCEP.",
