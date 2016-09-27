@@ -28,7 +28,11 @@ var app = angular.module("ewbWebsite", ['ngRoute', 'ui.bootstrap', 'twitter.time
                 templateUrl : 'app/fragments/projects/Guachtuq-Community.html',
                 controller  : 'guachtuqCommunityController'
             })
-
+        
+            .when('/Conchan-Overview', {
+                templateUrl : 'app/fragments/projects/Conchan-Overview.html',
+                controller  : 'conchanOverviewController'
+            })
 
             .when('/getinvolved', {
                 templateUrl : 'app/fragments/getinvolved.html',
