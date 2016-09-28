@@ -21,7 +21,6 @@ app.controller('sponsorController', function($scope) {
                 {"name":"Rotary", "date":"May 2015", "amount":"$35,000"}
             ],
             "logos": [
-                {"logo":"resources/images/sponsors/boeing.jpg"},
                 {"logo":"resources/images/sponsors/rotary.jpg"}
             ]
         },
