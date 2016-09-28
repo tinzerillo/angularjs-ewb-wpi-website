@@ -1,1 +1,18 @@
 <img id="headerimg" src="http://users.wpi.edu/~ewbwpi/images/projheader.png" alt="EWB members">
+
+<h1>Sponsors Platform</h1>
+
+<div ng-repeat="sponsor in sponsors" style="text-align:left; margin: 10px">
+    <h2>{{sponsor.title}} {{sponsor.description}}</h2>
+
+    <h3>Rewards</h3>
+    <ul ng-repeat="reward in sponsor.rewards" style="list-style-position:inside; text-align:left; margin: 0 auto;">
+        <li>{{reward.reward}}</li>
+    </ul>
+
+    <h3>Donors</h3>
+    <ul ng-repeat="donor in sponsor.donors" style="list-style-position:inside; text-align:left; margin: 0 auto;">
+        <li>{{donor.name}} donated {{donor.amount}} during {{donor.date}}</li>
+    </ul>
+    <br><br>
+</div>

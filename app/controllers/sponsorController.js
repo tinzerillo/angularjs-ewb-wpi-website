@@ -3,8 +3,8 @@ app.controller('sponsorController', function($scope) {
 
     $scope.sponsors = [
         { // PLATINUM
-            "level":"Platinum",
-            "description":"Donated $5000 or more",
+            "title":"Platinum",
+            "description":"($5,000+)",
             "rewards": [
                 {"reward":"Thank You card with club signatures"},
                 {"reward":"Name/Logo listed on \"Sponsors\" page under Platinum category with a description of person/organization"},
@@ -23,8 +23,8 @@ app.controller('sponsorController', function($scope) {
         },
 
         { // GOLD
-            "level":"Gold",
-            "description":"Between $1000 and $4999",
+            "title":"Gold",
+            "description":"($1,000 - $4,999)",
             "rewards": [
                 {"reward":"Thank You card with club signatures"},
                 {"reward":"Name/Logo listed on \"Sponsors\" page under Gold category"},
@@ -43,8 +43,8 @@ app.controller('sponsorController', function($scope) {
         },
 
         { // SILVER
-            "level":"Silver",
-            "description":"Between $200 and $999",
+            "title":"Silver",
+            "description":"($200 - $999)",
             "rewards": [
                 {"reward":"Thank You card with club signatures"},
                 {"reward":"Name/Logo listed on \"Sponsors\" page under Silver category"},
@@ -56,8 +56,8 @@ app.controller('sponsorController', function($scope) {
         },
 
         { // FRIENDS
-            "level":"Friends",
-            "description":"Between $5 and $200",
+            "title":"Friends",
+            "description":"($5 - $200)",
             "rewards": [
                 {"reward":"Thank You card"},
                 {"reward":"Name/Logo listed on\"Sponsors\" page under Friends category"}
@@ -67,4 +67,4 @@ app.controller('sponsorController', function($scope) {
             ]
         }
     ];
-})
+});
