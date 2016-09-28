@@ -1,18 +1,29 @@
+<link rel="stylesheet" type="text/css" href="resources/css/sponsors.css">
 <img id="headerimg" src="http://users.wpi.edu/~ewbwpi/images/projheader.png" alt="EWB members">
 
+<!-- Sponsors page has a 2x2 grid layout. Column 1 = Tier Information, Column 2 = Donor Logos -->
 <h1>Sponsors Platform</h1>
+<div class="section group">
+    <div ng-repeat="sponsor in sponsors" style="text-align:left; padding-left: 20%">
+        <div class="section group">
+            <div class="col span_1_of_2">
+                <h2>{{sponsor.title}} {{sponsor.description}}</h2>
 
-<div ng-repeat="sponsor in sponsors" style="text-align:left; margin: 10px">
-    <h2>{{sponsor.title}} {{sponsor.description}}</h2>
+                <h3>Rewards</h3>
+                <div ng-repeat="reward in sponsor.rewards" style="list-style-position:inside; text-align:left; margin: 0 auto;">
+                    <li>{{reward.reward}}</li>
+                </div>
 
-    <h3>Rewards</h3>
-    <ul ng-repeat="reward in sponsor.rewards" style="list-style-position:inside; text-align:left; margin: 0 auto;">
-        <li>{{reward.reward}}</li>
-    </ul>
+                <h3>Donors</h3>
+                <ul ng-repeat="donor in sponsor.donors" style="list-style-position:inside; text-align:left; margin: 0 auto;">
+                    <li>{{donor.name}} donated {{donor.amount}} during {{donor.date}}</li>
+                </ul>
+            </div>
 
-    <h3>Donors</h3>
-    <ul ng-repeat="donor in sponsor.donors" style="list-style-position:inside; text-align:left; margin: 0 auto;">
-        <li>{{donor.name}} donated {{donor.amount}} during {{donor.date}}</li>
-    </ul>
-    <br><br>
+            <!-- Sponsor images -->
+            <div ng-repeat="logo in sponsor.logos">
+                <img src="{{logo.logo}}" alt="Pratt & Whitney"</img>
+            </div>
+        </div>
+    </div>
 </div>

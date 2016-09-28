@@ -19,6 +19,10 @@ app.controller('sponsorController', function($scope) {
             "donors": [
                 {"name":"Alan & Gould Family Foundation", "date":"September 2016", "amount":"$5,000"},
                 {"name":"Rotary", "date":"May 2015", "amount":"$35,000"}
+            ],
+            "logos": [
+                {"logo":"resources/images/sponsors/boeing.jpg"},
+                {"logo":"resources/images/sponsors/rotary.jpg"}
             ]
         },
 
@@ -39,6 +43,10 @@ app.controller('sponsorController', function($scope) {
             "donors": [
                 {"name":"Worcester Polytechnic Institute", "date":"November 2015", "amount":"$1,000"},
                 {"name":"Pratt & Whitney", "date":"April 2016", "amount":"$2,500"}
+            ],
+            "logos": [
+                {"logo":"resources/images/sponsors/pratt.jpg"},
+                {"logo":"resources/images/sponsors/wpi.jpg"}
             ]
         },
 
@@ -67,4 +75,6 @@ app.controller('sponsorController', function($scope) {
             ]
         }
     ];
+
+
 });
