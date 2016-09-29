@@ -12,14 +12,14 @@
                 <h2 style="font-size:20px">{{sponsor.title}} {{sponsor.description}}</h2>
 
                 <h3 style="font-size:16px">Perks</h3>
-                <ul ng-repeat="reward in sponsor.rewards" style="list-style-position:inside; text-align:left; margin: 0 auto;">
-                    <li>{{reward.reward}}</li>
-                </ul>
+                <div ng-repeat="reward in sponsor.rewards" style="list-style-position:inside; text-align:left; margin: 0 auto;">
+                    <p style="padding-left: 10px">{{reward.reward}}</p>
+                </div>
 
                 <h3 style="font-size:16px">Donors</h3>
-                <ul ng-repeat="donor in sponsor.donors" style="list-style-position:inside; text-align:left; margin: 0 auto;">
-                    <li>{{donor.name}} donated {{donor.amount}} during {{donor.date}}</li>
-                </ul>
+                <div ng-repeat="donor in sponsor.donors" style="list-style-position:inside; text-align:left; margin: 0 auto;">
+                    <p style="padding-left: 10px">> {{donor.name}} donated {{donor.amount}} during {{donor.date}}</p>
+                </div>
             </div>
 
             <!-- Sponsor images -->
