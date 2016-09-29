@@ -39,6 +39,11 @@ var app = angular.module("ewbWebsite", ['ngRoute', 'ui.bootstrap', 'twitter.time
                 controller  : 'getinvolvedController'
             })
 
+            .when('/sponsors', {
+                templateUrl : 'app/fragments/sponsors.html',
+                controller : 'sponsorController'
+            })
+
 			.when('/blog', {
                 templateUrl : 'app/fragments/blog/index.cgi',
                 controller  : 'blogController'
