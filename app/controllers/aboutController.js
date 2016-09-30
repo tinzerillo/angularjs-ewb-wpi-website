@@ -12,8 +12,8 @@ app.controller('aboutController', function ($scope) {
 		{ "ImgName": "KATIE", "Position": "Public Relations Chair", "Name": "Katie Dunphy", "Major": "Industrial Engineering, Biomedical Engineering", "ClassYear": "2019", "Email": "kddunphy@wpi.edu"}
 	];
     $scope.appointed = [
-		{ "ImgName": "PLACEHOLDER", "Position": "Events Coordinator", "Name": "Andrew Petit", "Major": "Computer Science", "ClassYear": "2018", "Email":  "apetit@wpi.edu"},
-		{ "ImgName": "PLACEHOLDER", "Position": "Webmaster", "Name": "Trevor Valcourt", "Major": "Computer Science", "ClassYear": "2018", "Email": "tjvalcourt@wpi.edu"},
+		{ "ImgName": "ANDREW", "Position": "Events Coordinator", "Name": "Andrew Petit", "Major": "Computer Science", "ClassYear": "2018", "Email":  "apetit@wpi.edu"},
+		{ "ImgName": "TREVOR", "Position": "Webmaster", "Name": "Trevor Valcourt", "Major": "Computer Science", "ClassYear": "2018", "Email": "tjvalcourt@wpi.edu"},
         { "ImgName": "CAMDEN", "Position": "Historian", "Name": "Camden Knoff", "Major": "Mechanical Engineering", "ClassYear": "Graduate Student", "Email": "cmknoff@wpi.edu"}
 	];
 });
