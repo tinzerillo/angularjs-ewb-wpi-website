@@ -28,10 +28,19 @@ var app = angular.module("ewbWebsite", ['ngRoute', 'ui.bootstrap', 'twitter.time
                 templateUrl : 'app/fragments/projects/Guachtuq-Community.html',
                 controller  : 'guachtuqCommunityController'
             })
+            .when('/Guachtuq-Documents', {
+                templateUrl : 'app/fragments/projects/Guachtuq-Documents.html',
+                controller  : 'guachtuqDocumentsController'
+            })
         
             .when('/Conchan-Overview', {
                 templateUrl : 'app/fragments/projects/Conchan-Overview.html',
                 controller  : 'conchanOverviewController'
+            })
+        
+            .when('/Conchan-Trips', {
+                templateUrl : 'app/fragments/projects/Conchan-Trips.html',
+                controller  : 'conchanTripsController'
             })
 
             .when('/getinvolved', {

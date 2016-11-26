@@ -1,0 +1,49 @@
+<img id="headerimg" src="http://users.wpi.edu/~ewbwpi/images/projheader.png" alt="EWB members">
+
+<blockquote>
+
+    <h1>Conchan, Ecuador - Trip Descriptions</h1>
+    Select an option below to learn more about the trips our chapter has taken to Conchan, Ecuador.
+    <p>
+        <select ng-options="trip.title for trip in trips" ng-model="selectedTrip">
+        </select>
+    </p>
+    <hr>
+    <p>
+        <h2>{{selectedTrip.title}}</h2>
+        <p>{{selectedTrip.description}}</p>
+
+        <h3>Documents</h3>
+        <ul>
+            <li ng-repeat="form in selectedTrip.forms">
+                <a href="resources/documents/{{form.filename}}" target="_blank">{{form.title}}</a>
+            </li>
+        </ul>
+
+        <h3>Travel Dates</h3>
+        <ul>
+            <li>
+                {{ selectedTrip.startdate }} - {{ selectedTrip.enddate }}
+            </li>
+        </ul>
+    
+        <h3>Travel Team</h3>
+        <ul>
+            <li ng-repeat="member in selectedTrip.team">
+                {{ member.name}} - <i>{{ member.title }}</i>
+            </li>
+        </ul>
+    
+        <!---<h3>Photos</h3>
+        <div class="carousel-demo">
+                    <ul rn-carousel rn-carousel-index="carouselIndex2" rn-carousel-auto-slide rn-carousel-pause-on-hover rn-carousel-buffered class="carousel2">
+                        <li ng-repeat="slide in slides track by slide.id" ng-class="'id-' + slide.id">
+                            <div ng-style="{'background-image': 'url(' + slide.img + ')'}"  class="bgimage">
+                              #{{ slide.id }}
+                            </div>
+                        </li>
+                    </ul>
+                    <div rn-carousel-indicators ng-if="slides2.length > 1" slides="slides2" rn-carousel-index="carouselIndex2"></div>
+                </div>-->
+    </p>
+</blockquote>

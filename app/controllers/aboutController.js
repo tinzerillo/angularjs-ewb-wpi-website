@@ -14,6 +14,6 @@ app.controller('aboutController', function ($scope) {
     $scope.appointed = [
 		{ "ImgName": "ANDREW", "Position": "Events Coordinator", "Name": "Andrew Petit", "Major": "Computer Science", "ClassYear": "2018", "Email":  "apetit@wpi.edu"},
 		{ "ImgName": "TREVOR", "Position": "Webmaster", "Name": "Trevor Valcourt", "Major": "Computer Science", "ClassYear": "2018", "Email": "tjvalcourt@wpi.edu"},
-        { "ImgName": "CAMDEN", "Position": "Historian", "Name": "Camden Knoff", "Major": "Mechanical Engineering", "ClassYear": "Graduate Student", "Email": "cmknoff@wpi.edu"}
+        { "ImgName": "CAMDEN", "Position": "Historian", "Name": "Camden Knoff", "Major": "Mechanical Engineering", "ClassYear": "2016", "Email": "cmknoff@wpi.edu"}
 	];
 });

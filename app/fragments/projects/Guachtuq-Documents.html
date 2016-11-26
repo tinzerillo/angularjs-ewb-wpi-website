@@ -1,0 +1,19 @@
+<img id="headerimg" src="http://users.wpi.edu/~ewbwpi/images/projheader.png" alt="EWB members">
+
+<blockquote>
+
+    <h1>Guachtuq, Guatemala - Trip Documents</h1>
+    <table style="border:1px solid #000000">
+        <tr style="border:1px solid #000000">
+            <td style="border:1px solid #000000">Name</td>
+            <td style="border:1px solid #000000">Date</td>
+            <td style="border:1px solid #000000">Download</td>
+        </tr>
+        <tr ng-repeat="document in documents" style="border:1px solid #000000">
+            <td style="border:1px solid #000000">{{document.name}}</td>
+            <td style="border:1px solid #000000">{{document.date}}</td>
+            <td style="border:1px solid #000000"><a href="resources/documents/{{document.url}}" target="_blank">
+                X</a></td>
+        </tr>
+    </table>
+</blockquote>
